@@ -50,7 +50,7 @@ public class SpoutBlockTutorialCommandExecutor implements CommandExecutor {
 
 		} else if (command.getName().equalsIgnoreCase("worldBlock")
 				&& sender.hasPermission("SpoutBlockTutorial.worldBlock")) {
-			testBlock = new RedBlock(plugin);
+			testBlock = new BlueBlock(plugin);
 			Player player = (Player) sender;
 			Location loc = player.getLocation();
 			Block b = player.getWorld().getBlockAt(loc);

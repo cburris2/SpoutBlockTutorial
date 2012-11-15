@@ -8,10 +8,10 @@ import org.bukkit.plugin.Plugin;
 import org.getspout.spoutapi.material.block.GenericCubeCustomBlock;
 import org.getspout.spoutapi.player.SpoutPlayer;
 
-public class RedBlock extends GenericCubeCustomBlock {
-	public RedBlock(Plugin plugin) {
+public class BlueBlock extends GenericCubeCustomBlock {
+	public BlueBlock(Plugin plugin) {
 		super(plugin, "RedBlock",
-				"http://www.cs.unca.edu/~bruce/Fall12/373/redRock.png", 16);
+				"http://www.cs.unca.edu/~burriscl/magic.svg", 16);
 	}
 
 	@Override
